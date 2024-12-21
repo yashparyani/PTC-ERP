@@ -1,0 +1,20 @@
+.nav{
+    width: 100vw;
+    height: 50px;
+    background-color: #FDDEB3;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+.logo-name{
+    color: #481E14;
+    text-align: left;
+    font-size: x-large;
+    font-weight:600;
+    left: 20px;
+    display: flex;
+    top: 7px;
+    position: relative;
+    text-shadow: 3px 3px #e3c099;
+    letter-spacing: 2px;
+}

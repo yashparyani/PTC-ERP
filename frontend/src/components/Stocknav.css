@@ -1,0 +1,150 @@
+
+.nav{
+    width: 100vw;
+    height: 70px;
+    background-color: #FDDEB3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-name{
+    color: #481E14;
+    text-align: left;
+    font-size: x-large;
+    font-weight:600;
+    left: 20px;
+    display: flex;
+    top: 15px;
+    position: relative;
+    text-shadow: 3px 3px #e3c099;
+    letter-spacing: 2px;
+}
+
+.nav-btns{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.up-btn{
+    width: 100px;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    font-size: larger;
+    border-radius: 5%;
+    transition: transform 1s;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+.up-btn:hover {
+    background-color: #4cae4c; /* Darker shade of green */
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+.add-btn{
+    width: 100px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    font-size: larger;
+    border-radius: 5%;
+    transition: transform 1s;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.add-btn:hover {
+    background-color: blue; /* Darker shade of green */
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+.stockelement-wrrapper-i{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    height: 35px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    /* align-content: space-around;
+    justify-content: space-around; */
+ }
+ 
+ .stockelement-date-i{
+   border: solid;
+   border-color: black;
+   width: 150px;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   font-weight: 700;
+   border-right: none;
+   border-bottom: none;
+ }
+ .stockelement-garden-i{
+     border: solid;
+     border-color: black;
+     width: 800px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-right: none;
+     border-bottom: none;
+ }
+ .stockelement-quantity-i{
+     border: solid;
+     border-color: black;
+     width: 150px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-right: none;
+     border-bottom: none;
+ }
+ .stock-element-rate-i{
+     border: solid;
+     border-color: black;
+     width: 150px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-right: none;
+     border-bottom: none;
+ }
+ .stockelement-value-i{
+     border: solid;
+     border-color: black;
+     width: 150px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-bottom: none;
+ }
+
+ .stock-table{
+    margin: auto;
+    margin-bottom: 50px;
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+ }

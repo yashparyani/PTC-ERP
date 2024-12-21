@@ -1,0 +1,69 @@
+
+.stockelement-wrrapper{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    height: 35px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    /* align-content: space-around;
+    justify-content: space-around; */
+ }
+ 
+ .stockelement-date{
+   border: solid;
+   border-color: black;
+   width: 150px;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   font-weight: 700;
+   border-right: none;
+   border-bottom: none;
+ }
+ .stockelement-garden{
+     border: solid;
+     border-color: black;
+     border-bottom: none;
+     width: 800px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-right: none;
+     border-bottom: none;
+ }
+ .stockelement-quantity{
+     border: solid;
+     border-color: black;
+     width: 150px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-right: none;
+     border-bottom: none;
+ }
+ .stock-element-rate{
+     border: solid;
+     border-color: black;
+     width: 150px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-right: none;
+     border-bottom: none;
+ }
+ .stockelement-value{
+     border: solid;
+     border-color: black;
+     width: 150px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     font-weight: 700;
+     border-bottom: none;
+ }
+

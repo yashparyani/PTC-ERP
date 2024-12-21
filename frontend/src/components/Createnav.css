@@ -1,0 +1,281 @@
+.blend-playground-wrraper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Ensures children stretch to the same height */
+    background-color: lightgray;
+    border: solid;
+    height: 100%; /* Ensures the container respects the full height */
+    margin-bottom: 5%;
+}
+
+.stock-select-wrraper {
+    width: 50%;
+    border: solid;
+    border-top: none;   
+    border-left: none;
+    background-color: white;
+    display: flex; /* Optional, in case you want to align its content */
+    flex-direction: column; /* Ensures inner content stacks vertically */
+    height: auto; /* Matches content height */
+}
+
+.created-blend-wrraper {
+    width: 50%;
+    border: solid;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Flexbox will stretch it */
+}
+
+.complete-blend-wrraper {
+    position: sticky; /* Sticky positioning */
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 10; /* Ensure it stays above other content */
+    background-color: lightgray; /* Optional: Add background to avoid transparency */
+    padding: 10px; /* Add padding if needed */
+}
+
+
+.stockelement-wrrapper-j{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+
+.stockelement-date-j{
+    width: 10%;
+    border: solid;
+    border-bottom: none;
+    border-right: none;
+}
+
+.stockelement-garden-j{
+    width: 30%;
+    border: solid;
+    border-bottom: none;
+    border-right: none;
+}
+
+.stockelement-quantity-j{
+    width: 15%;
+    border: solid;
+    border-bottom: none;
+    border-right: none;
+}
+
+.stock-element-rate-j{
+    width: 15%;
+    border: solid;  
+    border-bottom: none;
+    border-right: none;
+}
+
+.stockelement-value-j{
+    width: 15%;
+    border: solid;  
+    border-bottom: none;
+    border-right: none;
+}
+
+.fetchelement-wrrapper-j{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    transition: background-color 0.3s ease;
+    background-color: white;
+}
+.stockelement-blendQty{
+    appearance: none;
+    width: 13%;
+    outline: none;
+    border: solid;
+    /* border-right: none; */
+    border-bottom: none;
+    text-align: center;
+    font-size: 15px;
+}
+.stockelement-blendQuantity-j{
+    border: solid;
+    border-bottom: none;
+    width: 13.5%;
+    text-align: center;
+
+}
+.btns-complete-val{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.add-delete-btns{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    border-top: solid;
+}
+.add-btn-createb{
+    width: 50%;
+    padding: 2%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-right: solid;
+    transition: transform 1s;
+    border-color: black;
+}
+.del-btn-createb{
+    width: 50%;
+    padding: 2%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.add-btn-createb:hover{
+    background-color: black; 
+}
+.del-btn-createb:hover{
+   background-color: black;
+}
+
+.blendcard-wrraper {
+    background-color: black;
+    width: 90%;
+    box-shadow: 5px 5px 5px 5px #adadad;
+    border: solid;
+    color: white;
+    margin-top: 25px;
+    z-index: 10; /* Ensure it's above other content */
+    margin: 10% 0 0 5%;
+}
+.blendcard-name{
+    width: 99%;
+    text-align: center;
+    font-size: larger;
+    height: fit-content;
+    color: #FFDF00;
+    background-color: black;
+    outline: none;
+    border: none;
+    appearance: none;
+    border-color: white;
+}
+
+.ss-gn{
+    width: 40%;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: white;
+    padding-left: 10px;
+}
+
+.ss-qty{
+    width: 20%;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: white; 
+    align-content: center;
+    padding-left: 10px;
+    outline: none;
+    appearance: none;
+}
+.ss-rate{
+    width: 20%;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: white; 
+    align-content: center; 
+    padding-left: 10px; 
+}
+.ss-val{
+    width: 20%;
+    border-bottom: solid;
+    border-color: white; 
+    align-content: center; 
+    padding-left: 10px;
+}
+
+.ss-stocks-wrraper{
+    display: flex;
+    flex-direction: row;
+}
+.placeholders-entity{
+    display: flex;
+    flex-direction: row;
+    border-top: solid;
+    border-color: white;
+}
+.selected-stock {
+    background-color: lightgreen !important;
+}
+
+.add-elachi-btn{
+    width: 100px;
+    height: 50px;
+    margin: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+    color:  greenyellow;
+    background-color: black;
+    border: none;
+    border-radius: 5%;
+    font-size: larger;
+    transition: transform 0.5s;
+    border: solid 2px;
+    border-color: greenyellow;
+}
+.final-blend-btn{
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    cursor: pointer;
+    font-size: larger;
+    color:  lightgreen;
+    background-color: black;
+    border: solid 2px;
+    border-radius: 5%;
+    transition: transform 0.5s;
+    border-color: lightgreen;
+}
+
+.add-elachi-btn:hover{
+    color: black;
+    background-color: greenyellow;
+    border-color: black;
+}
+
+.final-blend-btn:hover{
+    color: black;
+    background-color: lightgreen;
+    border-color: black;
+}
+
+.el-qty, .el-rate {
+    width: 20%; /* Match the width of the table cell */
+    border-bottom: solid  white; /* Match the bottom border of table cells */
+    border-right: solid  white; /* Match the right border of table cells */
+    padding-left: 7px; /* No additional padding */
+    text-align: center; /* Align text in the center */
+    font-size: 14px; /* Match table text size */
+    line-height: 20px; /* Match the height of the table row */
+    height: 20px; /* Same height as table cells */
+    background-color: black; /* Match table background */
+    color: greenyellow; /* Match table text color */
+    /* box-sizing: border-box; Consistent sizing */
+    outline: none; /* Remove focus outline */
+    appearance: none; /* Remove browser-specific styling */
+    text-align: left;
+}
+
+
+input:focus {
+    outline: none;
+}
