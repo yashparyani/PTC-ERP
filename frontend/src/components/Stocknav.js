@@ -24,7 +24,7 @@ function Stocknav() {
     
     try {
       const fetchedStocks = await axios.post(
-        "http://localhost:5000/fetchstock",{},
+        "https://ptc-erp-apis.vercel.app/fetchstock",{},
         {
           headers: {
             Authorization: `Bearer ${token}`, // Add token to header
