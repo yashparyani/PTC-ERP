@@ -1,0 +1,32 @@
+.final-blend-wrraper {
+    display: flex;
+    flex-direction: row;
+}
+
+.final-blendcard-name {
+    width: 99%;
+    font-size: larger;
+    height: fit-content;
+    color: #FFDF00;
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between the blend name and button */
+    padding: 5px
+}
+
+.blend-delete-btn {
+    margin-left: auto; /* Pushes the button to the end */
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+.blend-delete-btn:hover{
+    transform: scale(1.1);
+}

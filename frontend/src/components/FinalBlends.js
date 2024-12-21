@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import axios from "axios";
 import FinalBlendCard from "./FinalBlendCard";
-
+import "./FinalBlends.css"
 function FinalBlends() {
   const [fetchedBlends, setFetchedBlends] = useState([]);
 
