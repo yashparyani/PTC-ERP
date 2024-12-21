@@ -17,7 +17,7 @@ function Upload({ onClose , setShowUpload}) {
     formData.append("file", file);
     try {
       const response = await axios.post(
-        "http://localhost:5000/upload",
+        "https://ptc-erp-apis.vercel.app/upload",
         formData,
         {
           headers: {
