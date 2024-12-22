@@ -14,6 +14,10 @@ app.use(cookieParser());
 //json parser
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
+
 //router import
 const auth = require("./routes/login");
 app.use(auth);
