@@ -18,12 +18,6 @@ app.get('/', (req, res) => {
   res.send('hello world')
 })
 
-const {signup,login} = require('./controllers/Login');
-
-app.post('/signup',signup);
-app.post('/login',login);
-
-
 //router import
 const auth = require("./routes/login");
 app.use(auth);
