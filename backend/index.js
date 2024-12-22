@@ -20,8 +20,6 @@ app.get('/', (req, res) => {
 
 const {signup,login} = require('./controllers/Login');
 
-const {auth, isAdmin} = require('./middlewares/auth');
-
 router.post('/signup',signup);
 router.post('/login',login);
 
