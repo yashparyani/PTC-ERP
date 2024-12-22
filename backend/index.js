@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'http://localhost:3000/',
+  origin: 'https://2eaa-27-57-252-107.ngrok-free.app/',
   credentials: true, 
 }));
 const cookieParser = require('cookie-parser');
