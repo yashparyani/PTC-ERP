@@ -32,8 +32,4 @@ app.use(blendRoutes);
 //db connect
 require('./config/database').connect();
 
-//start server
-const port = process.env.PORT;
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
-});
+module.exports = app;
