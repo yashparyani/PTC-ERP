@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 
 const {signup,login} = require('./controllers/Login');
 
-router.post('/signup',signup);
-router.post('/login',login);
+app.post('/signup',signup);
+app.post('/login',login);
 
 
 //router import
