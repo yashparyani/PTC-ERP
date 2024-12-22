@@ -18,6 +18,14 @@ app.get('/', (req, res) => {
   res.send('hello world')
 })
 
+const {signup,login} = require('/controllers/Login');
+
+const {auth, isAdmin} = require('middlewares/auth');
+
+router.post('/signup',signup);
+router.post('/login',login);
+
+
 //router import
 const auth = require("./routes/login");
 app.use(auth);
