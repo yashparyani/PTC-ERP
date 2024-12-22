@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 //router import
 const auth = require("./routes/login");
-app.use("https://ptc-erp-apis.vercel.app",auth);
+app.use(auth);
 
 const stockRoutes = require("./routes/stocks");
 app.use(stockRoutes);
