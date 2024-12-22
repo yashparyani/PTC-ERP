@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://ptc-erp-apis.vercel.app',
+  origin: 'http://localhost:3000/',
   credentials: true, 
 }));
 const cookieParser = require('cookie-parser');
