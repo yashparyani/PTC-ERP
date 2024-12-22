@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require("dotenv").config();
 
-const url = `mongodb+srv://DeepakParyani:deepakbaba@cluster0ptcerp.ovhgf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0PTCERP`;
+const url = process.env.MongoDB_URL;
 
 console.log(url);
 
