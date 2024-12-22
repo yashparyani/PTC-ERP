@@ -6,11 +6,12 @@ const fs = require("fs"); // File system module
 exports.uploadFile = async (req, res) => {
   try {
     // Save file to Vercel's temporary directory
-    const tempFilePath = path.join("/tmp", req.file.filename); // Save file in /tmp directory
-    fs.writeFileSync(tempFilePath, req.file.buffer); // Write file buffer to temp file
+    // Get the uploaded file path
+    const filePath = req.file.path; // File saved in /tmp directory
+    console.log("Uploaded file path:", filePath);
 
-    // Read file using xlsx
-    const file = reader.readFile(tempFilePath);
+    // Read the file using xlsx
+    const file = reader.readFile(filePath);
     const sheets = file.SheetNames;
     const bulkInsertData = []; // Array to hold all records for bulk insert
 
