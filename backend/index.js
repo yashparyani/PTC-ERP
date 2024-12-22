@@ -4,7 +4,9 @@ require("dotenv").config();
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://ptc-erp-frontend.vercel.app',
+  origin: "https://ptc-erp-frontend.vercel.app", // Replace with your frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed methods
+  allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true, 
 }));
 const cookieParser = require('cookie-parser');
