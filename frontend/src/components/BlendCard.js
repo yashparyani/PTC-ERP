@@ -108,7 +108,7 @@ function BlendCard({ selectedStocks , setSelected}) {
     
     try {
       const response = await axios.post(
-        "https://ptc-erp-frontend.vercel.app/finalizeBlend",
+        "https://ptc-erp-apis.vercel.app/finalizeBlend",
         {
             blendName : Blendname,
             stocksAdded : selectedStocks,
