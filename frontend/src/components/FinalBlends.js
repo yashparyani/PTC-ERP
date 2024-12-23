@@ -15,7 +15,7 @@ function FinalBlends() {
         }
 
         const response = await axios.post(
-          "http://localhost:5000/fetchblends",
+          "https://ptc-erp-apis.vercel.app/fetchblends",
           {},
           {
             headers: {
