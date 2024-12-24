@@ -99,7 +99,7 @@ exports.finalizeBlend = async (req,res) => {
             isElaichiAdded: Boolean(blendObj.isElaichiAdded),
             elaichiValue: Number(blendObj.elaichiVal),
             elaichiRate: Number(blendObj.elaichiRate),
-            elaichiQty: Number(blendObj.elaichiVal),
+            elaichiQty: Number(blendObj.elaichiQty),
             blendName: String(blendObj.blendName)
         })
         
